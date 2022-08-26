@@ -53,6 +53,7 @@ button{
     font-size: 24px;
     color:#f9faf8;
     padding: 16px;
+    padding-left: 80px;
 }
 .info-header{
     display:flex;
