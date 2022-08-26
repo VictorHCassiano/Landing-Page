@@ -38,10 +38,10 @@ p{
 button{
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .link-direita{
     display: flex;
@@ -103,9 +103,11 @@ img{
 .img-i{
     width: 100px;
     height: 100px;
-    margin: 10px;
-    padding: 10px;
+    
+    border: 2px solid  #3882f6;
+   
     border-radius: 25px;
+
 }
 .subtext-info{
     display: flex;
