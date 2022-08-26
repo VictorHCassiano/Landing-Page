@@ -58,9 +58,10 @@ button{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .info-header-main{
 
 color: #f9faf8;
@@ -72,10 +73,45 @@ font-weight: bolder;
 }
 .container-header{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 50px;
 }
 img{
     width: 400px;
     height: 250px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+.random{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+.img-info{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+.img-i{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.subtext-info{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    font-size: 12px;
+   margin: 10px;
+   white-space: pre;
 }
