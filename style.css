@@ -114,7 +114,23 @@ img{
     display: flex;
     flex-direction: column;
    justify-content: center;
+  align-items: flex-start;
     font-size: 12px;
    margin: 10px;
    white-space: pre;
+}
+.quote{
+    height: 300px;
+    display: flex;
+    font-size: 26px;
+    color: #1f2937;
+   justify-content: center;
+   align-items: center;
+    background-color: #E5E7EB;
+   font-style:  italic;
+   white-space: pre;
+}
+.autor-quote{
+    white-space: pre;
+
 }
